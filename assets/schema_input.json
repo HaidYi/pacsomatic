@@ -4,7 +4,7 @@
     "title": "nf-core/pacsomatic pipeline - params.input schema",
     "description": "Schema for the file provided with params.input",
     "type": "array",
-    "uniqueEntries": ["sample", "patient"],
+    "uniqueEntries": ["patient", "sample", "bam"],
     "items": {
         "type": "object",
         "properties": {
